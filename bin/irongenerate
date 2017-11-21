@@ -45,6 +45,7 @@ program
   .version(version, '    --version')
   .usage('[options] [dir]')
   .option('-c, --css <engine>', 'add stylesheet <engine> support (plain|less|scss|sass) (defaults to scss)')
+  .option('-a, --auth', 'Add passport-local authentication')
   .option('-f, --force', 'force on non-empty directory')
   .parse(process.argv);
 
