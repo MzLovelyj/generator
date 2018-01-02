@@ -29,8 +29,8 @@
   "repository": "ironhack/generator",
   "license": "MIT",
   "dependencies": {
-    "commander": "2.11.0",
-    "fs-extra": "^4.0.2",
+    "commander": "2.12.2",
+    "fs-extra": "^5.0.0",
     "chalk": "^2.3.0",
     "sorted-object": "2.0.1",
     "mkdirp": "0.5.1"
@@ -41,10 +41,10 @@
     "irongenerate": "./bin/irongenerate"
   },
   "devDependencies": {
-    "mocha": "2.5.3",
-    "rimraf": "2.5.4",
-    "supertest": "1.2.0",
-    "validate-npm-package-name": "2.2.2"
+    "mocha": "4.1.0",
+    "rimraf": "2.6.2",
+    "supertest": "3.0.0",
+    "validate-npm-package-name": "3.0.0"
   },
   "engines": {
     "node": ">= 0.10"
